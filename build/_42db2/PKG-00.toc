@@ -1,0 +1,53 @@
+('C:\\Users\\Ali '
+ 'Emre\\Desktop\\Yazılım\\pyqt\\42DividedBy2\\build\\_42db2\\PKG-00.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0},
+ [('PYZ-00.pyz',
+   'C:\\Users\\Ali '
+   'Emre\\Desktop\\Yazılım\\pyqt\\42DividedBy2\\build\\_42db2\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct', 'c:\\users\\ali emre\\anaconda3\\lib\\struct.pyo', 'PYMODULE'),
+  ('pyimod01_os_path',
+   'c:\\users\\ali '
+   'emre\\anaconda3\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'c:\\users\\ali '
+   'emre\\anaconda3\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'c:\\users\\ali '
+   'emre\\anaconda3\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\users\\ali '
+   'emre\\anaconda3\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'C:\\Users\\Ali '
+   'Emre\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Ali '
+   'Emre\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt5',
+   'C:\\Users\\Ali '
+   'Emre\\anaconda3\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt5.py',
+   'PYSOURCE'),
+  ('_42db2',
+   'C:\\Users\\Ali Emre\\Desktop\\Yazılım\\pyqt\\42DividedBy2\\_42db2.py',
+   'PYSOURCE'),
+  ('_42db2.exe.manifest',
+   'C:\\Users\\Ali '
+   'Emre\\Desktop\\Yazılım\\pyqt\\42DividedBy2\\build\\_42db2\\_42db2.exe.manifest',
+   'BINARY')],
+ True,
+ False,
+ False,
+ [])

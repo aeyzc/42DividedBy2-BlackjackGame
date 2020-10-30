@@ -1,0 +1,162 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file '_42db2ui.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1108, 784)
+        MainWindow.setStyleSheet("background-color: rgb(0, 102, 75);")
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.kasatxt = QtWidgets.QLabel(self.centralwidget)
+        self.kasatxt.setGeometry(QtCore.QRect(50, 20, 181, 61))
+        self.kasatxt.setStyleSheet("font: 20pt \"Lemon/Milk\";\n"
+"color: rgb(255, 255, 255);")
+        self.kasatxt.setObjectName("kasatxt")
+        self.pcCard1 = QtWidgets.QLabel(self.centralwidget)
+        self.pcCard1.setGeometry(QtCore.QRect(50, 100, 127, 178))
+        self.pcCard1.setText("")
+        self.pcCard1.setPixmap(QtGui.QPixmap("deck-images/arka.jpg"))
+        self.pcCard1.setScaledContents(True)
+        self.pcCard1.setObjectName("pcCard1")
+        self.pcCard2 = QtWidgets.QLabel(self.centralwidget)
+        self.pcCard2.setGeometry(QtCore.QRect(200, 100, 127, 178))
+        self.pcCard2.setText("")
+        self.pcCard2.setPixmap(QtGui.QPixmap("deck-images/arka.jpg"))
+        self.pcCard2.setScaledContents(True)
+        self.pcCard2.setObjectName("pcCard2")
+        self.pcCard3 = QtWidgets.QLabel(self.centralwidget)
+        self.pcCard3.setGeometry(QtCore.QRect(350, 100, 127, 178))
+        self.pcCard3.setText("")
+        self.pcCard3.setScaledContents(True)
+        self.pcCard3.setObjectName("pcCard3")
+        self.pcCard4 = QtWidgets.QLabel(self.centralwidget)
+        self.pcCard4.setGeometry(QtCore.QRect(500, 100, 127, 178))
+        self.pcCard4.setText("")
+        self.pcCard4.setScaledContents(True)
+        self.pcCard4.setObjectName("pcCard4")
+        self.pcCard5 = QtWidgets.QLabel(self.centralwidget)
+        self.pcCard5.setGeometry(QtCore.QRect(650, 100, 127, 178))
+        self.pcCard5.setText("")
+        self.pcCard5.setScaledContents(True)
+        self.pcCard5.setObjectName("pcCard5")
+        self.pcCard6 = QtWidgets.QLabel(self.centralwidget)
+        self.pcCard6.setGeometry(QtCore.QRect(800, 100, 127, 178))
+        self.pcCard6.setText("")
+        self.pcCard6.setScaledContents(True)
+        self.pcCard6.setObjectName("pcCard6")
+        self.pcCard7 = QtWidgets.QLabel(self.centralwidget)
+        self.pcCard7.setGeometry(QtCore.QRect(950, 100, 127, 178))
+        self.pcCard7.setText("")
+        self.pcCard7.setScaledContents(True)
+        self.pcCard7.setObjectName("pcCard7")
+        self.playertxt = QtWidgets.QLabel(self.centralwidget)
+        self.playertxt.setGeometry(QtCore.QRect(60, 300, 511, 61))
+        self.playertxt.setStyleSheet("font: 20pt \"Lemon/Milk\";\n"
+"color: rgb(255, 255, 255);")
+        self.playertxt.setObjectName("playertxt")
+        self.playerCard6 = QtWidgets.QLabel(self.centralwidget)
+        self.playerCard6.setGeometry(QtCore.QRect(810, 380, 127, 178))
+        self.playerCard6.setText("")
+        self.playerCard6.setScaledContents(True)
+        self.playerCard6.setObjectName("playerCard6")
+        self.playerCard1 = QtWidgets.QLabel(self.centralwidget)
+        self.playerCard1.setGeometry(QtCore.QRect(60, 380, 127, 178))
+        self.playerCard1.setText("")
+        self.playerCard1.setPixmap(QtGui.QPixmap("deck-images/arka.jpg"))
+        self.playerCard1.setScaledContents(True)
+        self.playerCard1.setObjectName("playerCard1")
+        self.playerCard3 = QtWidgets.QLabel(self.centralwidget)
+        self.playerCard3.setGeometry(QtCore.QRect(360, 380, 127, 178))
+        self.playerCard3.setText("")
+        self.playerCard3.setScaledContents(True)
+        self.playerCard3.setObjectName("playerCard3")
+        self.playerCard4 = QtWidgets.QLabel(self.centralwidget)
+        self.playerCard4.setGeometry(QtCore.QRect(510, 380, 127, 178))
+        self.playerCard4.setText("")
+        self.playerCard4.setScaledContents(True)
+        self.playerCard4.setObjectName("playerCard4")
+        self.playerCard7 = QtWidgets.QLabel(self.centralwidget)
+        self.playerCard7.setGeometry(QtCore.QRect(960, 380, 127, 178))
+        self.playerCard7.setText("")
+        self.playerCard7.setScaledContents(True)
+        self.playerCard7.setObjectName("playerCard7")
+        self.playerCard2 = QtWidgets.QLabel(self.centralwidget)
+        self.playerCard2.setGeometry(QtCore.QRect(210, 380, 127, 178))
+        self.playerCard2.setText("")
+        self.playerCard2.setPixmap(QtGui.QPixmap("deck-images/arka.jpg"))
+        self.playerCard2.setScaledContents(True)
+        self.playerCard2.setObjectName("playerCard2")
+        self.playerCard5 = QtWidgets.QLabel(self.centralwidget)
+        self.playerCard5.setGeometry(QtCore.QRect(660, 380, 127, 178))
+        self.playerCard5.setText("")
+        self.playerCard5.setScaledContents(True)
+        self.playerCard5.setObjectName("playerCard5")
+        self.hitbtn = QtWidgets.QPushButton(self.centralwidget)
+        self.hitbtn.setGeometry(QtCore.QRect(70, 620, 241, 81))
+        self.hitbtn.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 20pt \"Lemon/Milk\";")
+        self.hitbtn.setObjectName("hitbtn")
+        self.stand = QtWidgets.QPushButton(self.centralwidget)
+        self.stand.setGeometry(QtCore.QRect(350, 620, 241, 81))
+        self.stand.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 20pt \"Lemon/Milk\";")
+        self.stand.setObjectName("stand")
+        self.kalankarttxt = QtWidgets.QLabel(self.centralwidget)
+        self.kalankarttxt.setGeometry(QtCore.QRect(510, 20, 561, 61))
+        self.kalankarttxt.setStyleSheet("font: 20pt \"Lemon/Milk\";\n"
+"color: rgb(255, 255, 255);")
+        self.kalankarttxt.setObjectName("kalankarttxt")
+        self.sonuc = QtWidgets.QLabel(self.centralwidget)
+        self.sonuc.setGeometry(QtCore.QRect(620, 620, 211, 71))
+        self.sonuc.setStyleSheet("font: 20pt \"Lemon/Milk\";\n"
+"color: rgb(255, 255, 255);")
+        self.sonuc.setText("")
+        self.sonuc.setObjectName("sonuc")
+        self.restartbtn = QtWidgets.QPushButton(self.centralwidget)
+        self.restartbtn.setGeometry(QtCore.QRect(840, 620, 241, 81))
+        self.restartbtn.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 20pt \"Lemon/Milk\";")
+        self.restartbtn.setObjectName("restartbtn")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1108, 26))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "42DividedBy2"))
+        self.kasatxt.setText(_translate("MainWindow", "kasa"))
+        self.playertxt.setText(_translate("MainWindow", "oyuncu"))
+        self.hitbtn.setText(_translate("MainWindow", "hit"))
+        self.stand.setText(_translate("MainWindow", "stand"))
+        self.kalankarttxt.setText(_translate("MainWindow", "kalan kart sayisi:"))
+        self.restartbtn.setText(_translate("MainWindow", "restart"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
+
